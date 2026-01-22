@@ -11,3 +11,15 @@ total <- 453
 count <- 32
 avg <- total / count
 avg
+
+# Calculate rate per 100,000 people
+rate <- 0.0198
+rate_per_100k <- rate * 100000
+rate_per_100k
+
+# Calcualte hours and remaining minutes
+minutes <- 127
+hours <- minutes %/% 60
+hours
+minutes_remaining <- minutes %% 60
+minutes_remaining
